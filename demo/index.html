@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>three-steel playground</title>
+    <meta name="description" content="Pick a steel profile, shape a member, copy the three.js code." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 4h24v5H19v14h9v5H4v-5h9V9H4z' fill='%23E3AE00'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="viewport" aria-label="3D view">
+        <canvas id="canvas"></canvas>
+        <p class="stats" id="stats" aria-live="polite"></p>
+        <button class="fit" id="fit" type="button">Fit view</button>
+      </section>
+
+      <aside class="panel">
+        <header class="masthead">
+          <a class="wordmark" href="https://github.com/Bas-Automation-Services/three-steel">three-steel</a>
+          <nav class="links">
+            <a href="https://github.com/Bas-Automation-Services/three-steel">GitHub</a>
+            <a href="https://www.npmjs.com/package/three-steel">npm</a>
+          </nav>
+        </header>
+
+        <section class="sheet" aria-labelledby="designation">
+          <h1 class="designation" id="designation"></h1>
+          <p class="family" id="family"></p>
+          <svg class="figure" id="figure" role="img" aria-label="Cross-section drawing"></svg>
+          <dl class="dims" id="dims"></dl>
+        </section>
+
+        <form class="controls" id="controls" autocomplete="off">
+          <fieldset>
+            <legend>Profile</legend>
+            <div class="pair">
+              <label>Family <select id="familySelect"></select></label>
+              <label>Size <select id="sizeSelect"></select></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Member</legend>
+            <div class="segmented" role="radiogroup" aria-label="Member shape">
+              <label><input type="radio" name="kind" value="straight" /> <span>Straight</span></label>
+              <label><input type="radio" name="kind" value="arc" /> <span>Arc</span></label>
+              <label><input type="radio" name="kind" value="spiral" /> <span>Spiral</span></label>
+            </div>
+            <div data-kind="straight">
+              <label class="slider">Length <input type="range" id="length" min="500" max="12000" step="100" /><output for="length"></output></label>
+            </div>
+            <div data-kind="arc">
+              <label class="slider">Radius <input type="range" id="radius" min="1500" max="20000" step="100" /><output for="radius"></output></label>
+              <label class="slider">Sweep <input type="range" id="sweep" min="10" max="180" step="1" /><output for="sweep"></output></label>
+            </div>
+            <div data-kind="spiral">
+              <label class="slider">Radius <input type="range" id="spiralRadius" min="400" max="3000" step="50" /><output for="spiralRadius"></output></label>
+              <label class="slider">Turns <input type="range" id="turns" min="0.25" max="2" step="0.05" /><output for="turns"></output></label>
+              <label class="slider">Rise per turn <input type="range" id="rise" min="1000" max="6000" step="100" /><output for="rise"></output></label>
+            </div>
+            <label class="slider">Roll <input type="range" id="roll" min="-180" max="180" step="5" /><output for="roll"></output></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>End cuts</legend>
+            <label class="slider">Start <input type="range" id="startCut" min="-60" max="60" step="1" /><output for="startCut"></output></label>
+            <label class="slider">End <input type="range" id="endCut" min="-60" max="60" step="1" /><output for="endCut"></output></label>
+          </fieldset>
+        </form>
+
+        <section class="code" aria-labelledby="codeTitle">
+          <div class="code-head">
+            <h2 id="codeTitle">Code</h2>
+            <button type="button" id="copy">Copy code</button>
+          </div>
+          <pre><code id="snippet"></code></pre>
+        </section>
+      </aside>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

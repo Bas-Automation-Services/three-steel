@@ -3,6 +3,9 @@
 Structural steel sections and beams for three.js: EN and BS profile catalogs, exact section
 outlines, and straight, curved and spiral members as closed `BufferGeometry`.
 
+**[Try the playground](https://bas-automation-services.github.io/three-steel/)**: pick a
+profile, bend it into an arc or a spiral, cut the ends, and copy the code.
+
 ![Portal frames, an arch and a spiral stair stringer](docs/example.png)
 
 - **293 catalog profiles**: IPE, HEA, HEB, HEM, UPN, UPE, angles, SHS, RHS, CHS, flats and
@@ -113,7 +116,9 @@ sharp at corners. Every mesh is closed and wound outward.
 
 ```bash
 pnpm test          # vitest
-pnpm example       # the scene in the screenshot, at http://localhost:5173
+pnpm build         # dist/ (ESM + types)
+pnpm demo          # the playground, at http://localhost:5173
+pnpm example       # the scene in the screenshot
 ```
 
 ## License
