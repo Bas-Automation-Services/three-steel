@@ -74,12 +74,9 @@ export function beamToBufferGeometry(
   const startPlane = options.startCut ? toLocalPlane(frames[0], options.startCut) : square;
   const endPlane = options.endCut ? toLocalPlane(frames[n], options.endCut) : square;
 
-  const rings = frames.map((cs, i) =>
-    points.map(([x, y]) => {
-      const z = i === 0 ? zOnPlane(startPlane, x, y) : i === n ? zOnPlane(endPlane, x, y) : 0;
-      return toWorld(cs, [x, y, z]);
-    }),
-  );
+  const rings = frames.map((cs) => points.map(([x, y]) => toWorld(cs, [x, y, 0])));
+  if (options.startCut) cutRuns(rings, points, options.startCut, startPlane, frames[0], true);
+  if (options.endCut) cutRuns(rings, points, options.endCut, endPlane, frames[n], false);
 
   // Rings on a helix turn about the member axis from one station to the next.
   const twisted = curve.kind === 'helix3d';
@@ -157,6 +154,48 @@ const toWorld = (cs: CoordinateSystem3D, p: readonly number[]): number[] => {
   return [cs.origin.x + d[0], cs.origin.y + d[1], cs.origin.z + d[2]];
 };
 
+/**
+ * Ends every lengthwise run of vertices (one run per section point) on a cut plane. A run that
+ * crosses the plane is trimmed where it crosses, so a steep cut on a curve can reach several
+ * stations deep without folding the walls. A run whose end stops short of the plane is extended
+ * along the end tangent.
+ */
+function cutRuns(
+  rings: number[][][],
+  points: PolygonPoint[],
+  plane: Plane3D,
+  local: LocalPlane,
+  frame: CoordinateSystem3D,
+  atStart: boolean,
+): void {
+  const n = rings.length - 1;
+  const ring = (k: number) => rings[atStart ? k : n - k]; // k = 0 is the cut end
+  // Signed distance, positive on the member's side of the plane.
+  const into = atStart ? frame.zAxis : frame.zAxis.neg();
+  const normal = plane.normal.dot(into) >= 0 ? plane.normal : plane.normal.neg();
+  const o = plane.origin;
+  const side = (p: number[]) => (p[0] - o.x) * normal.x + (p[1] - o.y) * normal.y + (p[2] - o.z) * normal.z;
+
+  points.forEach(([x, y], v) => {
+    if (side(ring(0)[v]) >= 0) {
+      ring(0)[v] = toWorld(frame, [x, y, zOnPlane(local, x, y)]);
+      return;
+    }
+    for (let k = 1; k <= n; k++) {
+      const a = ring(k - 1)[v];
+      const b = ring(k)[v];
+      const da = side(a);
+      const db = side(b);
+      if (db < 0) continue;
+      // A crossing within a micron of a station snaps onto it, so no sliver walls are left.
+      const s = da / (da - db);
+      const crossing = db < 1e-3 ? b : a.map((c, j) => c + (b[j] - c) * s);
+      for (let m = 0; m < k; m++) ring(m)[v] = crossing;
+      return;
+    }
+  });
+}
+
 const normalize = (v: number[]): number[] => {
   const len = Math.hypot(v[0], v[1], v[2]) || 1;
   return [v[0] / len, v[1] / len, v[2] / len];
@@ -175,6 +214,9 @@ class MeshSink {
   readonly normals: number[] = [];
 
   tri(a: number[], b: number[], c: number[], na: number[], nb: number[], nc: number[]): void {
+    // Runs trimmed by an end cut collapse onto one point; skip the triangles that leaves empty.
+    const same = (p: number[], q: number[]) => p[0] === q[0] && p[1] === q[1] && p[2] === q[2];
+    if (same(a, b) || same(b, c) || same(a, c)) return;
     this.positions.push(...a, ...b, ...c);
     this.normals.push(...na, ...nb, ...nc);
   }
@@ -225,7 +267,9 @@ function buildWalls(
       const nb = sectionNormal(i, j);
       const [na0, nb0, na1, nb1] = [toWorldDir(frame0, na), toWorldDir(frame0, nb), toWorldDir(frame1, na), toWorldDir(frame1, nb)];
       const [a0, b0, a1, b1] = [ring0[offset + i], ring0[offset + j], ring1[offset + i], ring1[offset + j]];
-      if (!twisted) {
+      // A side collapsed by an end cut makes the quad a triangle: no fan needed (or wanted).
+      const collapsed = a0 === a1 || b0 === b1;
+      if (!twisted || collapsed) {
         out.tri(a0, b0, b1, na0, nb0, nb1);
         out.tri(a0, b1, a1, na0, nb1, na1);
         continue;

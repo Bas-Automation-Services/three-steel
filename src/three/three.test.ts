@@ -136,6 +136,37 @@ describe('curved members', () => {
     // Volume = area × centroid path; only a doubly symmetric section keeps its centroid on the centerline.
     expect(volume(sweep('IPE200')) / (sectionArea('IPE200') * helix.length)).toBeCloseTo(1, 3);
   });
+
+  it('cuts curved ends steeply without folding the walls back', () => {
+    // A 60° cut moves the flange tips ~170 mm along the member, several stations deep.
+    const helix = new Helix3D(new Point3D(0, 0, 0), Vector3D.Z_AXIS, Vector3D.X_AXIS, 1300, 0, 1.5 * Math.PI, 3600);
+    const beam = new BeamGeometry(helix, buildCrossSection(getProfile('IPE200')!.shape));
+    const tilted = (t: number, deg: number) => {
+      const cs = beam.getCoordinateSystemAt(t);
+      const a = (deg * Math.PI) / 180;
+      return new Plane3D(cs.origin, cs.zAxis.scale(Math.cos(a)).add(cs.yAxis.scale(Math.sin(a))));
+    };
+    const startCut = tilted(0, 60);
+    const endCut = tilted(1, -60);
+    const g = beamToBufferGeometry(beam, { sagMm: SAG, maxDegPerStation: 2, startCut, endCut });
+    expectClosed(g);
+    // Each cut runs through the centerline, so it removes about as much as it adds.
+    expect(volume(g) / (sectionArea('IPE200') * helix.length)).toBeCloseTo(1, 2);
+    // Near each end, nothing pokes out past the cut (the planes are infinite, so only look close by).
+    const p = g.getAttribute('position').array;
+    const inward = (plane: Plane3D, t: number) => (plane.normal.dot(beam.centerline.tangentAt(t)) > 0 ? 1 : -1);
+    const checks: [Plane3D, number][] = [[startCut, inward(startCut, 0)], [endCut, -inward(endCut, 1)]];
+    let near = 0;
+    for (let i = 0; i < p.length; i += 3) {
+      const q = new Point3D(p[i], p[i + 1], p[i + 2]);
+      for (const [plane, side] of checks) {
+        if (q.sub(plane.origin).length > 400) continue;
+        near++;
+        expect(side * plane.signedDistanceTo(q)).toBeGreaterThan(-1e-2);
+      }
+    }
+    expect(near).toBeGreaterThan(0);
+  });
 });
 
 describe('sectionToShape', () => {
