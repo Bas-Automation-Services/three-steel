@@ -368,6 +368,16 @@ input[type='range'] {
   font: 13px/1.5 var(--mono);
 }
 
+.credit {
+  margin-top: 24px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.credit a:hover {
+  color: var(--ink);
+}
+
 /* Phones: viewport on top, panel below. */
 
 @media (max-width: 820px) {

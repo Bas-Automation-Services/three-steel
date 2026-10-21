@@ -123,4 +123,7 @@ pnpm example       # the scene in the screenshot
 
 ## License
 
-MIT
+MIT © [Bas Automation Services](https://basautomationservices.com)
+
+three-steel is built and maintained by [Bas Automation Services](https://basautomationservices.com),
+who make CAD automation and Autodesk Inventor plugins.

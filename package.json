@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "Structural steel sections and beams for three.js: EN/BS profile catalogs, exact section outlines, straight, curved and spiral members.",
   "license": "MIT",
-  "author": "Bas Automation Services",
+  "author": {
+    "name": "Bas Automation Services",
+    "url": "https://basautomationservices.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bas-Automation-Services/three-steel.git"
