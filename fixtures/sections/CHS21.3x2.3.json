@@ -1,0 +1,27 @@
+{
+  "id": "CHS21.3x2.3",
+  "outer": [
+    {
+      "type": "circle",
+      "cx": 0,
+      "cy": 0,
+      "radius": 10.65
+    }
+  ],
+  "inner": [
+    [
+      {
+        "type": "circle",
+        "cx": 0,
+        "cy": 0,
+        "radius": 8.350000000000001
+      }
+    ]
+  ],
+  "boundingBox": {
+    "minX": -10.65,
+    "minY": -10.65,
+    "maxX": 10.65,
+    "maxY": 10.65
+  }
+}

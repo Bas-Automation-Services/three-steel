@@ -1,0 +1,27 @@
+{
+  "id": "CHS48.3x2.9",
+  "outer": [
+    {
+      "type": "circle",
+      "cx": 0,
+      "cy": 0,
+      "radius": 24.15
+    }
+  ],
+  "inner": [
+    [
+      {
+        "type": "circle",
+        "cx": 0,
+        "cy": 0,
+        "radius": 21.25
+      }
+    ]
+  ],
+  "boundingBox": {
+    "minX": -24.15,
+    "minY": -24.15,
+    "maxX": 24.15,
+    "maxY": 24.15
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "name": "three-steel",
+  "version": "0.1.0",
+  "description": "Structural steel sections and beams for three.js: EN/BS profile catalogs, exact section outlines, straight, curved and spiral members.",
+  "license": "MIT",
+  "author": "Bas Automation Services",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bas-Automation-Services/three-steel.git"
+  },
+  "homepage": "https://github.com/Bas-Automation-Services/three-steel#readme",
+  "bugs": "https://github.com/Bas-Automation-Services/three-steel/issues",
+  "keywords": [
+    "three",
+    "threejs",
+    "steel",
+    "beam",
+    "profile",
+    "section",
+    "IPE",
+    "HEA",
+    "structural",
+    "cad",
+    "bim"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./three": {
+      "types": "./dist/three/index.d.ts",
+      "import": "./dist/three/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "example": "vite examples",
+    "prepublishOnly": "pnpm typecheck && pnpm test && pnpm build"
+  },
+  "peerDependencies": {
+    "three": ">=0.150.0"
+  },
+  "peerDependenciesMeta": {
+    "three": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/three": "^0.182.0",
+    "three": "^0.184.0",
+    "tsup": "^8.5.1",
+    "typescript": "~5.9.3",
+    "vite": "^6.0.0",
+    "vitest": "^4.1.8"
+  }
+}

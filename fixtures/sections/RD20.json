@@ -1,0 +1,18 @@
+{
+  "id": "RD20",
+  "outer": [
+    {
+      "type": "circle",
+      "cx": 0,
+      "cy": 0,
+      "radius": 10
+    }
+  ],
+  "inner": [],
+  "boundingBox": {
+    "minX": -10,
+    "minY": -10,
+    "maxX": 10,
+    "maxY": 10
+  }
+}

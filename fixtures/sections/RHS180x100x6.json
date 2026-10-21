@@ -1,0 +1,143 @@
+{
+  "id": "RHS180x100x6",
+  "outer": [
+    {
+      "type": "line",
+      "x1": -38,
+      "y1": -90,
+      "x2": 38,
+      "y2": -90
+    },
+    {
+      "type": "arc",
+      "cx": 38,
+      "cy": -78,
+      "radius": 12,
+      "startAngle": 4.71238898038469,
+      "endAngle": 0,
+      "ccw": true
+    },
+    {
+      "type": "line",
+      "x1": 50,
+      "y1": -78,
+      "x2": 50,
+      "y2": 78
+    },
+    {
+      "type": "arc",
+      "cx": 38,
+      "cy": 78,
+      "radius": 12,
+      "startAngle": 0,
+      "endAngle": 1.5707963267948966,
+      "ccw": true
+    },
+    {
+      "type": "line",
+      "x1": 38,
+      "y1": 90,
+      "x2": -38,
+      "y2": 90
+    },
+    {
+      "type": "arc",
+      "cx": -38,
+      "cy": 78,
+      "radius": 12,
+      "startAngle": 1.5707963267948966,
+      "endAngle": 3.141592653589793,
+      "ccw": true
+    },
+    {
+      "type": "line",
+      "x1": -50,
+      "y1": 78,
+      "x2": -50,
+      "y2": -78
+    },
+    {
+      "type": "arc",
+      "cx": -38,
+      "cy": -78,
+      "radius": 12,
+      "startAngle": 3.141592653589793,
+      "endAngle": 4.71238898038469,
+      "ccw": true
+    }
+  ],
+  "inner": [
+    [
+      {
+        "type": "arc",
+        "cx": -38,
+        "cy": -78,
+        "radius": 6,
+        "startAngle": 4.71238898038469,
+        "endAngle": 3.141592653589793,
+        "ccw": false
+      },
+      {
+        "type": "line",
+        "x1": -44,
+        "y1": -78,
+        "x2": -44,
+        "y2": 78
+      },
+      {
+        "type": "arc",
+        "cx": -38,
+        "cy": 78,
+        "radius": 6,
+        "startAngle": 3.141592653589793,
+        "endAngle": 1.5707963267948966,
+        "ccw": false
+      },
+      {
+        "type": "line",
+        "x1": -38,
+        "y1": 84,
+        "x2": 38,
+        "y2": 84
+      },
+      {
+        "type": "arc",
+        "cx": 38,
+        "cy": 78,
+        "radius": 6,
+        "startAngle": 1.5707963267948966,
+        "endAngle": 0,
+        "ccw": false
+      },
+      {
+        "type": "line",
+        "x1": 44,
+        "y1": 78,
+        "x2": 44,
+        "y2": -78
+      },
+      {
+        "type": "arc",
+        "cx": 38,
+        "cy": -78,
+        "radius": 6,
+        "startAngle": 0,
+        "endAngle": 4.71238898038469,
+        "ccw": false
+      },
+      {
+        "type": "line",
+        "x1": 38,
+        "y1": -84,
+        "x2": -38,
+        "y2": -84
+      }
+    ]
+  ],
+  "boundingBox": {
+    "minX": -50,
+    "minY": -90,
+    "maxX": 50,
+    "maxY": 90
+  }
+}

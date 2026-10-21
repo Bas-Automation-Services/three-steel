@@ -1,0 +1,27 @@
+{
+  "id": "CHS60.3x2.9",
+  "outer": [
+    {
+      "type": "circle",
+      "cx": 0,
+      "cy": 0,
+      "radius": 30.15
+    }
+  ],
+  "inner": [
+    [
+      {
+        "type": "circle",
+        "cx": 0,
+        "cy": 0,
+        "radius": 27.25
+      }
+    ]
+  ],
+  "boundingBox": {
+    "minX": -30.15,
+    "minY": -30.15,
+    "maxX": 30.15,
+    "maxY": 30.15
+  }
+}

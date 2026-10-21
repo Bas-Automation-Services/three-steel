@@ -1,0 +1,2522 @@
+[
+  {
+    "id": "IPE80",
+    "displayName": "IPE 80",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 80,
+      "flangeWidth": 46,
+      "webThickness": 3.8,
+      "flangeThickness": 5.2,
+      "filletRadius": 5,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE100",
+    "displayName": "IPE 100",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 100,
+      "flangeWidth": 55,
+      "webThickness": 4.1,
+      "flangeThickness": 5.7,
+      "filletRadius": 7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE120",
+    "displayName": "IPE 120",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 120,
+      "flangeWidth": 64,
+      "webThickness": 4.4,
+      "flangeThickness": 6.3,
+      "filletRadius": 7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE140",
+    "displayName": "IPE 140",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 140,
+      "flangeWidth": 73,
+      "webThickness": 4.7,
+      "flangeThickness": 6.9,
+      "filletRadius": 7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE160",
+    "displayName": "IPE 160",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 160,
+      "flangeWidth": 82,
+      "webThickness": 5,
+      "flangeThickness": 7.4,
+      "filletRadius": 9,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE180",
+    "displayName": "IPE 180",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 180,
+      "flangeWidth": 91,
+      "webThickness": 5.3,
+      "flangeThickness": 8,
+      "filletRadius": 9,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE200",
+    "displayName": "IPE 200",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 200,
+      "flangeWidth": 100,
+      "webThickness": 5.6,
+      "flangeThickness": 8.5,
+      "filletRadius": 12,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE220",
+    "displayName": "IPE 220",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 220,
+      "flangeWidth": 110,
+      "webThickness": 5.9,
+      "flangeThickness": 9.2,
+      "filletRadius": 12,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE240",
+    "displayName": "IPE 240",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 240,
+      "flangeWidth": 120,
+      "webThickness": 6.2,
+      "flangeThickness": 9.8,
+      "filletRadius": 15,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE270",
+    "displayName": "IPE 270",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 270,
+      "flangeWidth": 135,
+      "webThickness": 6.6,
+      "flangeThickness": 10.2,
+      "filletRadius": 15,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE300",
+    "displayName": "IPE 300",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 300,
+      "flangeWidth": 150,
+      "webThickness": 7.1,
+      "flangeThickness": 10.7,
+      "filletRadius": 15,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE330",
+    "displayName": "IPE 330",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 330,
+      "flangeWidth": 160,
+      "webThickness": 7.5,
+      "flangeThickness": 11.5,
+      "filletRadius": 18,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE360",
+    "displayName": "IPE 360",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 360,
+      "flangeWidth": 170,
+      "webThickness": 8,
+      "flangeThickness": 12.7,
+      "filletRadius": 18,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE400",
+    "displayName": "IPE 400",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 400,
+      "flangeWidth": 180,
+      "webThickness": 8.6,
+      "flangeThickness": 13.5,
+      "filletRadius": 21,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE450",
+    "displayName": "IPE 450",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 450,
+      "flangeWidth": 190,
+      "webThickness": 9.4,
+      "flangeThickness": 14.6,
+      "filletRadius": 21,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE500",
+    "displayName": "IPE 500",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 500,
+      "flangeWidth": 200,
+      "webThickness": 10.2,
+      "flangeThickness": 16,
+      "filletRadius": 21,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE550",
+    "displayName": "IPE 550",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 550,
+      "flangeWidth": 210,
+      "webThickness": 11.1,
+      "flangeThickness": 17.2,
+      "filletRadius": 24,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "IPE600",
+    "displayName": "IPE 600",
+    "category": "IPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 600,
+      "flangeWidth": 220,
+      "webThickness": 12,
+      "flangeThickness": 19,
+      "filletRadius": 24,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA100",
+    "displayName": "HEA 100",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 96,
+      "flangeWidth": 100,
+      "webThickness": 5,
+      "flangeThickness": 8,
+      "filletRadius": 12,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA120",
+    "displayName": "HEA 120",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 114,
+      "flangeWidth": 120,
+      "webThickness": 5,
+      "flangeThickness": 8,
+      "filletRadius": 12,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA140",
+    "displayName": "HEA 140",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 133,
+      "flangeWidth": 140,
+      "webThickness": 5.5,
+      "flangeThickness": 8.5,
+      "filletRadius": 12,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA160",
+    "displayName": "HEA 160",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 152,
+      "flangeWidth": 160,
+      "webThickness": 6,
+      "flangeThickness": 9,
+      "filletRadius": 15,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA180",
+    "displayName": "HEA 180",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 171,
+      "flangeWidth": 180,
+      "webThickness": 6,
+      "flangeThickness": 9.5,
+      "filletRadius": 15,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA200",
+    "displayName": "HEA 200",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 190,
+      "flangeWidth": 200,
+      "webThickness": 6.5,
+      "flangeThickness": 10,
+      "filletRadius": 18,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA220",
+    "displayName": "HEA 220",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 210,
+      "flangeWidth": 220,
+      "webThickness": 7,
+      "flangeThickness": 11,
+      "filletRadius": 18,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA240",
+    "displayName": "HEA 240",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 230,
+      "flangeWidth": 240,
+      "webThickness": 7.5,
+      "flangeThickness": 12,
+      "filletRadius": 21,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA260",
+    "displayName": "HEA 260",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 250,
+      "flangeWidth": 260,
+      "webThickness": 7.5,
+      "flangeThickness": 12.5,
+      "filletRadius": 24,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA280",
+    "displayName": "HEA 280",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 270,
+      "flangeWidth": 280,
+      "webThickness": 8,
+      "flangeThickness": 13,
+      "filletRadius": 24,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA300",
+    "displayName": "HEA 300",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 290,
+      "flangeWidth": 300,
+      "webThickness": 8.5,
+      "flangeThickness": 14,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA320",
+    "displayName": "HEA 320",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 310,
+      "flangeWidth": 300,
+      "webThickness": 9,
+      "flangeThickness": 15.5,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA340",
+    "displayName": "HEA 340",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 330,
+      "flangeWidth": 300,
+      "webThickness": 9.5,
+      "flangeThickness": 16.5,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA360",
+    "displayName": "HEA 360",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 350,
+      "flangeWidth": 300,
+      "webThickness": 10,
+      "flangeThickness": 17.5,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA400",
+    "displayName": "HEA 400",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 390,
+      "flangeWidth": 300,
+      "webThickness": 11,
+      "flangeThickness": 19,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA450",
+    "displayName": "HEA 450",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 440,
+      "flangeWidth": 300,
+      "webThickness": 11.5,
+      "flangeThickness": 21,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEA500",
+    "displayName": "HEA 500",
+    "category": "HEA",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 490,
+      "flangeWidth": 300,
+      "webThickness": 12,
+      "flangeThickness": 23,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB100",
+    "displayName": "HEB 100",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 100,
+      "flangeWidth": 100,
+      "webThickness": 6,
+      "flangeThickness": 10,
+      "filletRadius": 12,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB120",
+    "displayName": "HEB 120",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 120,
+      "flangeWidth": 120,
+      "webThickness": 6.5,
+      "flangeThickness": 11,
+      "filletRadius": 12,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB140",
+    "displayName": "HEB 140",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 140,
+      "flangeWidth": 140,
+      "webThickness": 7,
+      "flangeThickness": 12,
+      "filletRadius": 12,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB160",
+    "displayName": "HEB 160",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 160,
+      "flangeWidth": 160,
+      "webThickness": 8,
+      "flangeThickness": 13,
+      "filletRadius": 15,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB180",
+    "displayName": "HEB 180",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 180,
+      "flangeWidth": 180,
+      "webThickness": 8.5,
+      "flangeThickness": 14,
+      "filletRadius": 15,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB200",
+    "displayName": "HEB 200",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 200,
+      "flangeWidth": 200,
+      "webThickness": 9,
+      "flangeThickness": 15,
+      "filletRadius": 18,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB220",
+    "displayName": "HEB 220",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 220,
+      "flangeWidth": 220,
+      "webThickness": 9.5,
+      "flangeThickness": 16,
+      "filletRadius": 18,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB240",
+    "displayName": "HEB 240",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 240,
+      "flangeWidth": 240,
+      "webThickness": 10,
+      "flangeThickness": 17,
+      "filletRadius": 21,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB260",
+    "displayName": "HEB 260",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 260,
+      "flangeWidth": 260,
+      "webThickness": 10,
+      "flangeThickness": 17.5,
+      "filletRadius": 24,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB280",
+    "displayName": "HEB 280",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 280,
+      "flangeWidth": 280,
+      "webThickness": 10.5,
+      "flangeThickness": 18,
+      "filletRadius": 24,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB300",
+    "displayName": "HEB 300",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 300,
+      "flangeWidth": 300,
+      "webThickness": 11,
+      "flangeThickness": 19,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB320",
+    "displayName": "HEB 320",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 320,
+      "flangeWidth": 300,
+      "webThickness": 11.5,
+      "flangeThickness": 20.5,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB340",
+    "displayName": "HEB 340",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 340,
+      "flangeWidth": 300,
+      "webThickness": 12,
+      "flangeThickness": 21.5,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB360",
+    "displayName": "HEB 360",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 360,
+      "flangeWidth": 300,
+      "webThickness": 12.5,
+      "flangeThickness": 22.5,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB400",
+    "displayName": "HEB 400",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 400,
+      "flangeWidth": 300,
+      "webThickness": 13.5,
+      "flangeThickness": 24,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB450",
+    "displayName": "HEB 450",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 450,
+      "flangeWidth": 300,
+      "webThickness": 14,
+      "flangeThickness": 26,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEB500",
+    "displayName": "HEB 500",
+    "category": "HEB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 500,
+      "flangeWidth": 300,
+      "webThickness": 14.5,
+      "flangeThickness": 28,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEM100",
+    "displayName": "HEM 100",
+    "category": "HEM",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 120,
+      "flangeWidth": 106,
+      "webThickness": 12,
+      "flangeThickness": 20,
+      "filletRadius": 12,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEM120",
+    "displayName": "HEM 120",
+    "category": "HEM",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 140,
+      "flangeWidth": 126,
+      "webThickness": 12.5,
+      "flangeThickness": 21,
+      "filletRadius": 12,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEM140",
+    "displayName": "HEM 140",
+    "category": "HEM",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 160,
+      "flangeWidth": 146,
+      "webThickness": 13,
+      "flangeThickness": 22,
+      "filletRadius": 12,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEM160",
+    "displayName": "HEM 160",
+    "category": "HEM",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 180,
+      "flangeWidth": 166,
+      "webThickness": 14,
+      "flangeThickness": 23,
+      "filletRadius": 15,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEM180",
+    "displayName": "HEM 180",
+    "category": "HEM",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 200,
+      "flangeWidth": 186,
+      "webThickness": 14.5,
+      "flangeThickness": 24,
+      "filletRadius": 15,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEM200",
+    "displayName": "HEM 200",
+    "category": "HEM",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 220,
+      "flangeWidth": 206,
+      "webThickness": 15,
+      "flangeThickness": 25,
+      "filletRadius": 18,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEM220",
+    "displayName": "HEM 220",
+    "category": "HEM",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 240,
+      "flangeWidth": 226,
+      "webThickness": 15.5,
+      "flangeThickness": 26,
+      "filletRadius": 18,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEM240",
+    "displayName": "HEM 240",
+    "category": "HEM",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 270,
+      "flangeWidth": 248,
+      "webThickness": 18,
+      "flangeThickness": 32,
+      "filletRadius": 21,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEM260",
+    "displayName": "HEM 260",
+    "category": "HEM",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 290,
+      "flangeWidth": 268,
+      "webThickness": 18,
+      "flangeThickness": 32.5,
+      "filletRadius": 24,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEM280",
+    "displayName": "HEM 280",
+    "category": "HEM",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 310,
+      "flangeWidth": 288,
+      "webThickness": 18.5,
+      "flangeThickness": 33,
+      "filletRadius": 24,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "HEM300",
+    "displayName": "HEM 300",
+    "category": "HEM",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 340,
+      "flangeWidth": 310,
+      "webThickness": 21,
+      "flangeThickness": 39,
+      "filletRadius": 27,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UPN80",
+    "displayName": "UPN 80",
+    "category": "UPN",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 80,
+      "flangeWidth": 45,
+      "webThickness": 6,
+      "flangeThickness": 8,
+      "innerFilletRadius": 8,
+      "outerFilletRadius": 4,
+      "flangeSlope": 8
+    }
+  },
+  {
+    "id": "UPN100",
+    "displayName": "UPN 100",
+    "category": "UPN",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 100,
+      "flangeWidth": 50,
+      "webThickness": 6,
+      "flangeThickness": 8.5,
+      "innerFilletRadius": 8.5,
+      "outerFilletRadius": 4.5,
+      "flangeSlope": 8
+    }
+  },
+  {
+    "id": "UPN120",
+    "displayName": "UPN 120",
+    "category": "UPN",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 120,
+      "flangeWidth": 55,
+      "webThickness": 7,
+      "flangeThickness": 9,
+      "innerFilletRadius": 9,
+      "outerFilletRadius": 4.5,
+      "flangeSlope": 8
+    }
+  },
+  {
+    "id": "UPN140",
+    "displayName": "UPN 140",
+    "category": "UPN",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 140,
+      "flangeWidth": 60,
+      "webThickness": 7,
+      "flangeThickness": 10,
+      "innerFilletRadius": 10,
+      "outerFilletRadius": 5,
+      "flangeSlope": 8
+    }
+  },
+  {
+    "id": "UPN160",
+    "displayName": "UPN 160",
+    "category": "UPN",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 160,
+      "flangeWidth": 65,
+      "webThickness": 7.5,
+      "flangeThickness": 10.5,
+      "innerFilletRadius": 10.5,
+      "outerFilletRadius": 5.5,
+      "flangeSlope": 8
+    }
+  },
+  {
+    "id": "UPN180",
+    "displayName": "UPN 180",
+    "category": "UPN",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 180,
+      "flangeWidth": 70,
+      "webThickness": 8,
+      "flangeThickness": 11,
+      "innerFilletRadius": 11,
+      "outerFilletRadius": 5.5,
+      "flangeSlope": 8
+    }
+  },
+  {
+    "id": "UPN200",
+    "displayName": "UPN 200",
+    "category": "UPN",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 200,
+      "flangeWidth": 75,
+      "webThickness": 8.5,
+      "flangeThickness": 11.5,
+      "innerFilletRadius": 11.5,
+      "outerFilletRadius": 6,
+      "flangeSlope": 8
+    }
+  },
+  {
+    "id": "UPN220",
+    "displayName": "UPN 220",
+    "category": "UPN",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 220,
+      "flangeWidth": 80,
+      "webThickness": 9,
+      "flangeThickness": 12.5,
+      "innerFilletRadius": 12.5,
+      "outerFilletRadius": 6.5,
+      "flangeSlope": 8
+    }
+  },
+  {
+    "id": "UPN240",
+    "displayName": "UPN 240",
+    "category": "UPN",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 240,
+      "flangeWidth": 85,
+      "webThickness": 9.5,
+      "flangeThickness": 13,
+      "innerFilletRadius": 13,
+      "outerFilletRadius": 6.5,
+      "flangeSlope": 8
+    }
+  },
+  {
+    "id": "UPN260",
+    "displayName": "UPN 260",
+    "category": "UPN",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 260,
+      "flangeWidth": 90,
+      "webThickness": 10,
+      "flangeThickness": 14,
+      "innerFilletRadius": 14,
+      "outerFilletRadius": 7,
+      "flangeSlope": 8
+    }
+  },
+  {
+    "id": "UPN280",
+    "displayName": "UPN 280",
+    "category": "UPN",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 280,
+      "flangeWidth": 95,
+      "webThickness": 10,
+      "flangeThickness": 15,
+      "innerFilletRadius": 15,
+      "outerFilletRadius": 7.5,
+      "flangeSlope": 8
+    }
+  },
+  {
+    "id": "UPN300",
+    "displayName": "UPN 300",
+    "category": "UPN",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 300,
+      "flangeWidth": 100,
+      "webThickness": 10,
+      "flangeThickness": 16,
+      "innerFilletRadius": 16,
+      "outerFilletRadius": 8,
+      "flangeSlope": 8
+    }
+  },
+  {
+    "id": "UPE80",
+    "displayName": "UPE 80",
+    "category": "UPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 80,
+      "flangeWidth": 50,
+      "webThickness": 4,
+      "flangeThickness": 7,
+      "innerFilletRadius": 10,
+      "outerFilletRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UPE100",
+    "displayName": "UPE 100",
+    "category": "UPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 100,
+      "flangeWidth": 55,
+      "webThickness": 4.5,
+      "flangeThickness": 7.5,
+      "innerFilletRadius": 10,
+      "outerFilletRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UPE120",
+    "displayName": "UPE 120",
+    "category": "UPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 120,
+      "flangeWidth": 60,
+      "webThickness": 5,
+      "flangeThickness": 8,
+      "innerFilletRadius": 12,
+      "outerFilletRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UPE140",
+    "displayName": "UPE 140",
+    "category": "UPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 140,
+      "flangeWidth": 65,
+      "webThickness": 5,
+      "flangeThickness": 9,
+      "innerFilletRadius": 12,
+      "outerFilletRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UPE160",
+    "displayName": "UPE 160",
+    "category": "UPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 160,
+      "flangeWidth": 70,
+      "webThickness": 5.5,
+      "flangeThickness": 9.5,
+      "innerFilletRadius": 12,
+      "outerFilletRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UPE180",
+    "displayName": "UPE 180",
+    "category": "UPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 180,
+      "flangeWidth": 75,
+      "webThickness": 5.5,
+      "flangeThickness": 10.5,
+      "innerFilletRadius": 12,
+      "outerFilletRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UPE200",
+    "displayName": "UPE 200",
+    "category": "UPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 200,
+      "flangeWidth": 80,
+      "webThickness": 6,
+      "flangeThickness": 11,
+      "innerFilletRadius": 13,
+      "outerFilletRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UPE220",
+    "displayName": "UPE 220",
+    "category": "UPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 220,
+      "flangeWidth": 85,
+      "webThickness": 6.5,
+      "flangeThickness": 12,
+      "innerFilletRadius": 13,
+      "outerFilletRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UPE240",
+    "displayName": "UPE 240",
+    "category": "UPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 240,
+      "flangeWidth": 90,
+      "webThickness": 7,
+      "flangeThickness": 12.5,
+      "innerFilletRadius": 15,
+      "outerFilletRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UPE270",
+    "displayName": "UPE 270",
+    "category": "UPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 270,
+      "flangeWidth": 95,
+      "webThickness": 7.5,
+      "flangeThickness": 13.5,
+      "innerFilletRadius": 15,
+      "outerFilletRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UPE300",
+    "displayName": "UPE 300",
+    "category": "UPE",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "u",
+      "height": 300,
+      "flangeWidth": 100,
+      "webThickness": 9.5,
+      "flangeThickness": 15,
+      "innerFilletRadius": 15,
+      "outerFilletRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "L30x30x3",
+    "displayName": "L 30x30x3",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 30,
+      "legHeight": 30,
+      "thickness": 3,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 5,
+      "toeRadius": 2.5
+    }
+  },
+  {
+    "id": "L40x40x4",
+    "displayName": "L 40x40x4",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 40,
+      "legHeight": 40,
+      "thickness": 4,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 6,
+      "toeRadius": 3
+    }
+  },
+  {
+    "id": "L50x50x5",
+    "displayName": "L 50x50x5",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 50,
+      "legHeight": 50,
+      "thickness": 5,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 7,
+      "toeRadius": 3.5
+    }
+  },
+  {
+    "id": "L60x60x6",
+    "displayName": "L 60x60x6",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 60,
+      "legHeight": 60,
+      "thickness": 6,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 8,
+      "toeRadius": 4
+    }
+  },
+  {
+    "id": "L70x70x7",
+    "displayName": "L 70x70x7",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 70,
+      "legHeight": 70,
+      "thickness": 7,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 9,
+      "toeRadius": 4.5
+    }
+  },
+  {
+    "id": "L80x80x8",
+    "displayName": "L 80x80x8",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 80,
+      "legHeight": 80,
+      "thickness": 8,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 10,
+      "toeRadius": 5
+    }
+  },
+  {
+    "id": "L90x90x9",
+    "displayName": "L 90x90x9",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 90,
+      "legHeight": 90,
+      "thickness": 9,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 11,
+      "toeRadius": 5.5
+    }
+  },
+  {
+    "id": "L100x100x10",
+    "displayName": "L 100x100x10",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 100,
+      "legHeight": 100,
+      "thickness": 10,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 12,
+      "toeRadius": 6
+    }
+  },
+  {
+    "id": "L120x120x12",
+    "displayName": "L 120x120x12",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 120,
+      "legHeight": 120,
+      "thickness": 12,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 13,
+      "toeRadius": 6.5
+    }
+  },
+  {
+    "id": "L150x150x15",
+    "displayName": "L 150x150x15",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 150,
+      "legHeight": 150,
+      "thickness": 15,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 16,
+      "toeRadius": 8
+    }
+  },
+  {
+    "id": "L80x40x6",
+    "displayName": "L 80x40x6",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 80,
+      "legHeight": 40,
+      "thickness": 6,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 7,
+      "toeRadius": 3.5
+    }
+  },
+  {
+    "id": "L100x50x8",
+    "displayName": "L 100x50x8",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 100,
+      "legHeight": 50,
+      "thickness": 8,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 9,
+      "toeRadius": 4.5
+    }
+  },
+  {
+    "id": "L100x65x7",
+    "displayName": "L 100x65x7",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 100,
+      "legHeight": 65,
+      "thickness": 7,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 10,
+      "toeRadius": 5
+    }
+  },
+  {
+    "id": "L120x80x10",
+    "displayName": "L 120x80x10",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 120,
+      "legHeight": 80,
+      "thickness": 10,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 11,
+      "toeRadius": 5.5
+    }
+  },
+  {
+    "id": "L150x100x10",
+    "displayName": "L 150x100x10",
+    "category": "Angle",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "angle",
+      "legWidth": 150,
+      "legHeight": 100,
+      "thickness": 10,
+      "outerFilletRadius": 0,
+      "innerFilletRadius": 12,
+      "toeRadius": 6
+    }
+  },
+  {
+    "id": "SHS20x20x2",
+    "displayName": "SHS 20x20x2",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 20,
+      "width": 20,
+      "wallThickness": 2,
+      "outerCornerRadius": 4
+    }
+  },
+  {
+    "id": "SHS25x25x2.5",
+    "displayName": "SHS 25x25x2.5",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 25,
+      "width": 25,
+      "wallThickness": 2.5,
+      "outerCornerRadius": 5
+    }
+  },
+  {
+    "id": "SHS30x30x3",
+    "displayName": "SHS 30x30x3",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 30,
+      "width": 30,
+      "wallThickness": 3,
+      "outerCornerRadius": 6
+    }
+  },
+  {
+    "id": "SHS40x40x3",
+    "displayName": "SHS 40x40x3",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 40,
+      "width": 40,
+      "wallThickness": 3,
+      "outerCornerRadius": 6
+    }
+  },
+  {
+    "id": "SHS40x40x4",
+    "displayName": "SHS 40x40x4",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 40,
+      "width": 40,
+      "wallThickness": 4,
+      "outerCornerRadius": 8
+    }
+  },
+  {
+    "id": "SHS50x50x3",
+    "displayName": "SHS 50x50x3",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 50,
+      "width": 50,
+      "wallThickness": 3,
+      "outerCornerRadius": 6
+    }
+  },
+  {
+    "id": "SHS50x50x4",
+    "displayName": "SHS 50x50x4",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 50,
+      "width": 50,
+      "wallThickness": 4,
+      "outerCornerRadius": 8
+    }
+  },
+  {
+    "id": "SHS60x60x4",
+    "displayName": "SHS 60x60x4",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 60,
+      "width": 60,
+      "wallThickness": 4,
+      "outerCornerRadius": 8
+    }
+  },
+  {
+    "id": "SHS70x70x4",
+    "displayName": "SHS 70x70x4",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 70,
+      "width": 70,
+      "wallThickness": 4,
+      "outerCornerRadius": 8
+    }
+  },
+  {
+    "id": "SHS80x80x4",
+    "displayName": "SHS 80x80x4",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 80,
+      "width": 80,
+      "wallThickness": 4,
+      "outerCornerRadius": 8
+    }
+  },
+  {
+    "id": "SHS80x80x5",
+    "displayName": "SHS 80x80x5",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 80,
+      "width": 80,
+      "wallThickness": 5,
+      "outerCornerRadius": 10
+    }
+  },
+  {
+    "id": "SHS90x90x5",
+    "displayName": "SHS 90x90x5",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 90,
+      "width": 90,
+      "wallThickness": 5,
+      "outerCornerRadius": 10
+    }
+  },
+  {
+    "id": "SHS100x100x4",
+    "displayName": "SHS 100x100x4",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 100,
+      "width": 100,
+      "wallThickness": 4,
+      "outerCornerRadius": 8
+    }
+  },
+  {
+    "id": "SHS100x100x5",
+    "displayName": "SHS 100x100x5",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 100,
+      "width": 100,
+      "wallThickness": 5,
+      "outerCornerRadius": 10
+    }
+  },
+  {
+    "id": "SHS100x100x6",
+    "displayName": "SHS 100x100x6",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 100,
+      "width": 100,
+      "wallThickness": 6,
+      "outerCornerRadius": 12
+    }
+  },
+  {
+    "id": "SHS120x120x5",
+    "displayName": "SHS 120x120x5",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 120,
+      "width": 120,
+      "wallThickness": 5,
+      "outerCornerRadius": 10
+    }
+  },
+  {
+    "id": "SHS120x120x6",
+    "displayName": "SHS 120x120x6",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 120,
+      "width": 120,
+      "wallThickness": 6,
+      "outerCornerRadius": 12
+    }
+  },
+  {
+    "id": "SHS140x140x6",
+    "displayName": "SHS 140x140x6",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 140,
+      "width": 140,
+      "wallThickness": 6,
+      "outerCornerRadius": 12
+    }
+  },
+  {
+    "id": "SHS150x150x6",
+    "displayName": "SHS 150x150x6",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 150,
+      "width": 150,
+      "wallThickness": 6,
+      "outerCornerRadius": 12
+    }
+  },
+  {
+    "id": "SHS150x150x8",
+    "displayName": "SHS 150x150x8",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 150,
+      "width": 150,
+      "wallThickness": 8,
+      "outerCornerRadius": 16
+    }
+  },
+  {
+    "id": "SHS180x180x8",
+    "displayName": "SHS 180x180x8",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 180,
+      "width": 180,
+      "wallThickness": 8,
+      "outerCornerRadius": 16
+    }
+  },
+  {
+    "id": "SHS200x200x8",
+    "displayName": "SHS 200x200x8",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 200,
+      "width": 200,
+      "wallThickness": 8,
+      "outerCornerRadius": 16
+    }
+  },
+  {
+    "id": "SHS250x250x10",
+    "displayName": "SHS 250x250x10",
+    "category": "SHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 250,
+      "width": 250,
+      "wallThickness": 10,
+      "outerCornerRadius": 20
+    }
+  },
+  {
+    "id": "RHS40x20x2.5",
+    "displayName": "RHS 40x20x2.5",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 40,
+      "width": 20,
+      "wallThickness": 2.5,
+      "outerCornerRadius": 5
+    }
+  },
+  {
+    "id": "RHS50x30x3",
+    "displayName": "RHS 50x30x3",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 50,
+      "width": 30,
+      "wallThickness": 3,
+      "outerCornerRadius": 6
+    }
+  },
+  {
+    "id": "RHS60x40x3",
+    "displayName": "RHS 60x40x3",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 60,
+      "width": 40,
+      "wallThickness": 3,
+      "outerCornerRadius": 6
+    }
+  },
+  {
+    "id": "RHS60x40x4",
+    "displayName": "RHS 60x40x4",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 60,
+      "width": 40,
+      "wallThickness": 4,
+      "outerCornerRadius": 8
+    }
+  },
+  {
+    "id": "RHS80x40x3",
+    "displayName": "RHS 80x40x3",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 80,
+      "width": 40,
+      "wallThickness": 3,
+      "outerCornerRadius": 6
+    }
+  },
+  {
+    "id": "RHS80x40x4",
+    "displayName": "RHS 80x40x4",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 80,
+      "width": 40,
+      "wallThickness": 4,
+      "outerCornerRadius": 8
+    }
+  },
+  {
+    "id": "RHS100x50x4",
+    "displayName": "RHS 100x50x4",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 100,
+      "width": 50,
+      "wallThickness": 4,
+      "outerCornerRadius": 8
+    }
+  },
+  {
+    "id": "RHS100x60x4",
+    "displayName": "RHS 100x60x4",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 100,
+      "width": 60,
+      "wallThickness": 4,
+      "outerCornerRadius": 8
+    }
+  },
+  {
+    "id": "RHS120x60x4",
+    "displayName": "RHS 120x60x4",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 120,
+      "width": 60,
+      "wallThickness": 4,
+      "outerCornerRadius": 8
+    }
+  },
+  {
+    "id": "RHS120x80x5",
+    "displayName": "RHS 120x80x5",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 120,
+      "width": 80,
+      "wallThickness": 5,
+      "outerCornerRadius": 10
+    }
+  },
+  {
+    "id": "RHS140x80x5",
+    "displayName": "RHS 140x80x5",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 140,
+      "width": 80,
+      "wallThickness": 5,
+      "outerCornerRadius": 10
+    }
+  },
+  {
+    "id": "RHS150x100x5",
+    "displayName": "RHS 150x100x5",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 150,
+      "width": 100,
+      "wallThickness": 5,
+      "outerCornerRadius": 10
+    }
+  },
+  {
+    "id": "RHS160x80x5",
+    "displayName": "RHS 160x80x5",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 160,
+      "width": 80,
+      "wallThickness": 5,
+      "outerCornerRadius": 10
+    }
+  },
+  {
+    "id": "RHS180x100x6",
+    "displayName": "RHS 180x100x6",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 180,
+      "width": 100,
+      "wallThickness": 6,
+      "outerCornerRadius": 12
+    }
+  },
+  {
+    "id": "RHS200x100x6",
+    "displayName": "RHS 200x100x6",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 200,
+      "width": 100,
+      "wallThickness": 6,
+      "outerCornerRadius": 12
+    }
+  },
+  {
+    "id": "RHS200x120x6",
+    "displayName": "RHS 200x120x6",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 200,
+      "width": 120,
+      "wallThickness": 6,
+      "outerCornerRadius": 12
+    }
+  },
+  {
+    "id": "RHS250x150x8",
+    "displayName": "RHS 250x150x8",
+    "category": "RHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rectHollow",
+      "height": 250,
+      "width": 150,
+      "wallThickness": 8,
+      "outerCornerRadius": 16
+    }
+  },
+  {
+    "id": "CHS21.3x2.3",
+    "displayName": "CHS 21.3x2.3",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 21.3,
+      "wallThickness": 2.3
+    }
+  },
+  {
+    "id": "CHS26.9x2.3",
+    "displayName": "CHS 26.9x2.3",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 26.9,
+      "wallThickness": 2.3
+    }
+  },
+  {
+    "id": "CHS33.7x2.6",
+    "displayName": "CHS 33.7x2.6",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 33.7,
+      "wallThickness": 2.6
+    }
+  },
+  {
+    "id": "CHS42.4x2.6",
+    "displayName": "CHS 42.4x2.6",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 42.4,
+      "wallThickness": 2.6
+    }
+  },
+  {
+    "id": "CHS48.3x2.9",
+    "displayName": "CHS 48.3x2.9",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 48.3,
+      "wallThickness": 2.9
+    }
+  },
+  {
+    "id": "CHS60.3x2.9",
+    "displayName": "CHS 60.3x2.9",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 60.3,
+      "wallThickness": 2.9
+    }
+  },
+  {
+    "id": "CHS76.1x2.9",
+    "displayName": "CHS 76.1x2.9",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 76.1,
+      "wallThickness": 2.9
+    }
+  },
+  {
+    "id": "CHS88.9x3.2",
+    "displayName": "CHS 88.9x3.2",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 88.9,
+      "wallThickness": 3.2
+    }
+  },
+  {
+    "id": "CHS101.6x3.6",
+    "displayName": "CHS 101.6x3.6",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 101.6,
+      "wallThickness": 3.6
+    }
+  },
+  {
+    "id": "CHS114.3x3.6",
+    "displayName": "CHS 114.3x3.6",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 114.3,
+      "wallThickness": 3.6
+    }
+  },
+  {
+    "id": "CHS139.7x4",
+    "displayName": "CHS 139.7x4",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 139.7,
+      "wallThickness": 4
+    }
+  },
+  {
+    "id": "CHS168.3x4.5",
+    "displayName": "CHS 168.3x4.5",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 168.3,
+      "wallThickness": 4.5
+    }
+  },
+  {
+    "id": "CHS193.7x5.4",
+    "displayName": "CHS 193.7x5.4",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 193.7,
+      "wallThickness": 5.4
+    }
+  },
+  {
+    "id": "CHS219.1x5.9",
+    "displayName": "CHS 219.1x5.9",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 219.1,
+      "wallThickness": 5.9
+    }
+  },
+  {
+    "id": "CHS273x6.3",
+    "displayName": "CHS 273x6.3",
+    "category": "CHS",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circHollow",
+      "outerDiameter": 273,
+      "wallThickness": 6.3
+    }
+  },
+  {
+    "id": "FL20x5",
+    "displayName": "Flat 20x5",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 20,
+      "height": 5
+    }
+  },
+  {
+    "id": "FL30x5",
+    "displayName": "Flat 30x5",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 30,
+      "height": 5
+    }
+  },
+  {
+    "id": "FL40x5",
+    "displayName": "Flat 40x5",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 40,
+      "height": 5
+    }
+  },
+  {
+    "id": "FL40x8",
+    "displayName": "Flat 40x8",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 40,
+      "height": 8
+    }
+  },
+  {
+    "id": "FL50x5",
+    "displayName": "Flat 50x5",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 50,
+      "height": 5
+    }
+  },
+  {
+    "id": "FL50x8",
+    "displayName": "Flat 50x8",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 50,
+      "height": 8
+    }
+  },
+  {
+    "id": "FL60x8",
+    "displayName": "Flat 60x8",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 60,
+      "height": 8
+    }
+  },
+  {
+    "id": "FL60x10",
+    "displayName": "Flat 60x10",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 60,
+      "height": 10
+    }
+  },
+  {
+    "id": "FL80x8",
+    "displayName": "Flat 80x8",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 80,
+      "height": 8
+    }
+  },
+  {
+    "id": "FL80x10",
+    "displayName": "Flat 80x10",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 80,
+      "height": 10
+    }
+  },
+  {
+    "id": "FL100x10",
+    "displayName": "Flat 100x10",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 100,
+      "height": 10
+    }
+  },
+  {
+    "id": "FL100x12",
+    "displayName": "Flat 100x12",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 100,
+      "height": 12
+    }
+  },
+  {
+    "id": "FL120x10",
+    "displayName": "Flat 120x10",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 120,
+      "height": 10
+    }
+  },
+  {
+    "id": "FL150x12",
+    "displayName": "Flat 150x12",
+    "category": "Flat",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "rect",
+      "width": 150,
+      "height": 12
+    }
+  },
+  {
+    "id": "RD10",
+    "displayName": "Round 10",
+    "category": "Round",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circle",
+      "diameter": 10
+    }
+  },
+  {
+    "id": "RD12",
+    "displayName": "Round 12",
+    "category": "Round",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circle",
+      "diameter": 12
+    }
+  },
+  {
+    "id": "RD16",
+    "displayName": "Round 16",
+    "category": "Round",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circle",
+      "diameter": 16
+    }
+  },
+  {
+    "id": "RD20",
+    "displayName": "Round 20",
+    "category": "Round",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circle",
+      "diameter": 20
+    }
+  },
+  {
+    "id": "RD25",
+    "displayName": "Round 25",
+    "category": "Round",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circle",
+      "diameter": 25
+    }
+  },
+  {
+    "id": "RD30",
+    "displayName": "Round 30",
+    "category": "Round",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circle",
+      "diameter": 30
+    }
+  },
+  {
+    "id": "RD40",
+    "displayName": "Round 40",
+    "category": "Round",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circle",
+      "diameter": 40
+    }
+  },
+  {
+    "id": "RD50",
+    "displayName": "Round 50",
+    "category": "Round",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "circle",
+      "diameter": 50
+    }
+  }
+]

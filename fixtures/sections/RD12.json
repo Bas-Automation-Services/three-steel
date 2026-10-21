@@ -1,0 +1,18 @@
+{
+  "id": "RD12",
+  "outer": [
+    {
+      "type": "circle",
+      "cx": 0,
+      "cy": 0,
+      "radius": 6
+    }
+  ],
+  "inner": [],
+  "boundingBox": {
+    "minX": -6,
+    "minY": -6,
+    "maxX": 6,
+    "maxY": 6
+  }
+}

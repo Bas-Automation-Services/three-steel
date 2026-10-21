@@ -1,0 +1,27 @@
+{
+  "id": "CHS139.7x4",
+  "outer": [
+    {
+      "type": "circle",
+      "cx": 0,
+      "cy": 0,
+      "radius": 69.85
+    }
+  ],
+  "inner": [
+    [
+      {
+        "type": "circle",
+        "cx": 0,
+        "cy": 0,
+        "radius": 65.85
+      }
+    ]
+  ],
+  "boundingBox": {
+    "minX": -69.85,
+    "minY": -69.85,
+    "maxX": 69.85,
+    "maxY": 69.85
+  }
+}
