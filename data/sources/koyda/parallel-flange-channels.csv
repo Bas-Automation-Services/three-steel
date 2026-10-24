@@ -1,0 +1,23 @@
+# Koyda Steel Section Tables | Parallel flange channels (PFC) | 16 sizes
+# Standard: BS 4-1 / BS EN 10365 | Nominal values | Reviewed 2026-10-10 | Reference only: check against current manufacturer data and a structural engineer
+# Source: Koyda Ltd | https://www.koyda.com/steel-section-tables/parallel-flange-channels/
+# Contact: Koyda Ltd | Units 27-29 Jesmor Farm | St Piers Lane | Lingfield | Surrey RH7 6PN | joe@koyda.com | 07753 213617 | www.koyda.com | Mon-Fri 07:00-17:00
+# Licence: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ | Credit: Koyda Ltd www.koyda.com
+# Plain data copy without these lines: https://www.koyda.com/steel-section-tables/csv/koyda-parallel-flange-channels-data.csv
+designation,section_type,standard,mass_kg_per_m,h_mm,b_mm,t_w_mm,t_f_mm,r_mm,c_y_cm,A_cm2,I_x_cm4,W_el_x_cm3
+430x100x64,PFC,BS 4-1 / BS EN 10365,64.4,430,100,11,19,15,2.62,82.1,21939,1020
+380x100x54,PFC,BS 4-1 / BS EN 10365,54,380,100,9.5,17.5,15,2.79,68.7,15034,791
+300x100x46,PFC,BS 4-1 / BS EN 10365,45.5,300,100,9,16.5,15,3.05,58,8229,549
+300x90x41,PFC,BS 4-1 / BS EN 10365,41.4,300,90,9,15.5,12,2.6,52.7,7218,481
+260x90x35,PFC,BS 4-1 / BS EN 10365,34.8,260,90,8,14,12,2.74,44.4,4728,364
+260x75x28,PFC,BS 4-1 / BS EN 10365,27.6,260,75,7,12,12,2.1,35.1,3619,278
+230x90x32,PFC,BS 4-1 / BS EN 10365,32.2,230,90,7.5,14,12,2.92,41,3518,306
+230x75x26,PFC,BS 4-1 / BS EN 10365,25.7,230,75,6.5,12.5,12,2.3,32.7,2748,239
+200x90x30,PFC,BS 4-1 / BS EN 10365,29.7,200,90,7,14,12,3.12,37.9,2523,252
+200x75x23,PFC,BS 4-1 / BS EN 10365,23.4,200,75,6,12.5,12,2.48,29.9,1963,196
+180x90x26,PFC,BS 4-1 / BS EN 10365,26.1,180,90,6.5,12.5,12,3.17,33.2,1817,202
+180x75x20,PFC,BS 4-1 / BS EN 10365,20.3,180,75,6,10.5,12,2.41,25.9,1370,152
+150x90x24,PFC,BS 4-1 / BS EN 10365,23.9,150,90,6.5,12,12,3.3,30.4,1162,155
+150x75x18,PFC,BS 4-1 / BS EN 10365,17.9,150,75,5.5,10,12,2.58,22.8,861,115
+125x65x15,PFC,BS 4-1 / BS EN 10365,14.8,125,65,5.5,9.5,12,2.25,18.8,483,77.3
+100x50x10,PFC,BS 4-1 / BS EN 10365,10.2,100,50,5,8.5,9,1.73,13,208,41.5

@@ -464,6 +464,22 @@
     }
   },
   {
+    "id": "UB406x140x53",
+    "displayName": "UB 406x140x53",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 406.6,
+      "flangeWidth": 143.3,
+      "webThickness": 7.9,
+      "flangeThickness": 12.9,
+      "filletRadius": 10.2,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
     "id": "UB406x178x54",
     "displayName": "UB 406x178x54",
     "category": "UB",
@@ -522,6 +538,22 @@
       "flangeWidth": 179.5,
       "webThickness": 9.5,
       "flangeThickness": 16,
+      "filletRadius": 10.2,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB406x178x85",
+    "displayName": "UB 406x178x85",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 417.2,
+      "flangeWidth": 181.9,
+      "webThickness": 10.9,
+      "flangeThickness": 18.2,
       "filletRadius": 10.2,
       "toeRadius": 0,
       "flangeSlope": 0
@@ -688,6 +720,102 @@
     }
   },
   {
+    "id": "UB457x191x106",
+    "displayName": "UB 457x191x106",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 469.2,
+      "flangeWidth": 194,
+      "webThickness": 12.6,
+      "flangeThickness": 20.6,
+      "filletRadius": 10.2,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB457x191x133",
+    "displayName": "UB 457x191x133",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 480.6,
+      "flangeWidth": 196.7,
+      "webThickness": 15.3,
+      "flangeThickness": 26.3,
+      "filletRadius": 10.2,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB457x191x161",
+    "displayName": "UB 457x191x161",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 492,
+      "flangeWidth": 199.4,
+      "webThickness": 18,
+      "flangeThickness": 32,
+      "filletRadius": 10.2,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB533x165x66",
+    "displayName": "UB 533x165x66",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 524.7,
+      "flangeWidth": 165.1,
+      "webThickness": 8.9,
+      "flangeThickness": 11.4,
+      "filletRadius": 12.7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB533x165x75",
+    "displayName": "UB 533x165x75",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 529.1,
+      "flangeWidth": 165.9,
+      "webThickness": 9.7,
+      "flangeThickness": 13.6,
+      "filletRadius": 12.7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB533x165x85",
+    "displayName": "UB 533x165x85",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 534.9,
+      "flangeWidth": 166.5,
+      "webThickness": 10.3,
+      "flangeThickness": 16.5,
+      "filletRadius": 12.7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
     "id": "UB533x210x82",
     "displayName": "UB 533x210x82",
     "category": "UB",
@@ -768,6 +896,134 @@
     }
   },
   {
+    "id": "UB533x210x138",
+    "displayName": "UB 533x210x138",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 549.1,
+      "flangeWidth": 213.9,
+      "webThickness": 14.7,
+      "flangeThickness": 23.6,
+      "filletRadius": 12.7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB533x312x151",
+    "displayName": "UB 533x312x151",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 542.5,
+      "flangeWidth": 312,
+      "webThickness": 12.7,
+      "flangeThickness": 20.3,
+      "filletRadius": 12.7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB533x312x182",
+    "displayName": "UB 533x312x182",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 550.7,
+      "flangeWidth": 314.5,
+      "webThickness": 15.2,
+      "flangeThickness": 24.4,
+      "filletRadius": 12.7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB533x312x219",
+    "displayName": "UB 533x312x219",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 560.3,
+      "flangeWidth": 317.4,
+      "webThickness": 18.3,
+      "flangeThickness": 29.2,
+      "filletRadius": 12.7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB533x312x273",
+    "displayName": "UB 533x312x273",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 577.1,
+      "flangeWidth": 320.2,
+      "webThickness": 21.1,
+      "flangeThickness": 37.6,
+      "filletRadius": 12.7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB610x178x82",
+    "displayName": "UB 610x178x82",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 598.6,
+      "flangeWidth": 177.9,
+      "webThickness": 10,
+      "flangeThickness": 12.8,
+      "filletRadius": 12.7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB610x178x92",
+    "displayName": "UB 610x178x92",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 603,
+      "flangeWidth": 178.8,
+      "webThickness": 10.9,
+      "flangeThickness": 15,
+      "filletRadius": 12.7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB610x178x100",
+    "displayName": "UB 610x178x100",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 607.4,
+      "flangeWidth": 179.2,
+      "webThickness": 11.3,
+      "flangeThickness": 17.2,
+      "filletRadius": 12.7,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
     "id": "UB610x229x101",
     "displayName": "UB 610x229x101",
     "category": "UB",
@@ -832,6 +1088,54 @@
     }
   },
   {
+    "id": "UB610x305x149",
+    "displayName": "UB 610x305x149",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 612.4,
+      "flangeWidth": 304.8,
+      "webThickness": 11.8,
+      "flangeThickness": 19.7,
+      "filletRadius": 16.5,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB610x305x179",
+    "displayName": "UB 610x305x179",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 620.2,
+      "flangeWidth": 307.1,
+      "webThickness": 14.1,
+      "flangeThickness": 23.6,
+      "filletRadius": 16.5,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB610x305x238",
+    "displayName": "UB 610x305x238",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 635.8,
+      "flangeWidth": 311.4,
+      "webThickness": 18.4,
+      "flangeThickness": 31.4,
+      "filletRadius": 16.5,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
     "id": "UB686x254x125",
     "displayName": "UB 686x254x125",
     "category": "UB",
@@ -891,6 +1195,22 @@
       "webThickness": 14.5,
       "flangeThickness": 23.7,
       "filletRadius": 15.2,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB762x267x134",
+    "displayName": "UB 762x267x134",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 750,
+      "flangeWidth": 264.4,
+      "webThickness": 12,
+      "flangeThickness": 15.5,
+      "filletRadius": 16.5,
       "toeRadius": 0,
       "flangeSlope": 0
     }
@@ -1088,6 +1408,134 @@
     }
   },
   {
+    "id": "UB1016x305x222",
+    "displayName": "UB 1016x305x222",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 970.3,
+      "flangeWidth": 300,
+      "webThickness": 16,
+      "flangeThickness": 21.1,
+      "filletRadius": 30,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB1016x305x249",
+    "displayName": "UB 1016x305x249",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 980.1,
+      "flangeWidth": 300,
+      "webThickness": 16.5,
+      "flangeThickness": 26,
+      "filletRadius": 30,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB1016x305x272",
+    "displayName": "UB 1016x305x272",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 990.1,
+      "flangeWidth": 300,
+      "webThickness": 16.5,
+      "flangeThickness": 31,
+      "filletRadius": 30,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB1016x305x314",
+    "displayName": "UB 1016x305x314",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 999.9,
+      "flangeWidth": 300,
+      "webThickness": 19.1,
+      "flangeThickness": 35.9,
+      "filletRadius": 30,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB1016x305x349",
+    "displayName": "UB 1016x305x349",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 1008,
+      "flangeWidth": 302,
+      "webThickness": 21.1,
+      "flangeThickness": 40,
+      "filletRadius": 30,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB1016x305x393",
+    "displayName": "UB 1016x305x393",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 1015.9,
+      "flangeWidth": 303,
+      "webThickness": 24.4,
+      "flangeThickness": 43.9,
+      "filletRadius": 30,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB1016x305x437",
+    "displayName": "UB 1016x305x437",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 1026.1,
+      "flangeWidth": 305.4,
+      "webThickness": 26.9,
+      "flangeThickness": 49,
+      "filletRadius": 30,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UB1016x305x487",
+    "displayName": "UB 1016x305x487",
+    "category": "UB",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 1036.3,
+      "flangeWidth": 308.5,
+      "webThickness": 30,
+      "flangeThickness": 54.1,
+      "filletRadius": 30,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
     "id": "UC152x152x23",
     "displayName": "UC 152x152x23",
     "category": "UC",
@@ -1130,6 +1578,38 @@
       "flangeWidth": 154.4,
       "webThickness": 8,
       "flangeThickness": 11.5,
+      "filletRadius": 7.6,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UC152x152x44",
+    "displayName": "UC 152x152x44",
+    "category": "UC",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 166,
+      "flangeWidth": 155.9,
+      "webThickness": 9.5,
+      "flangeThickness": 13.6,
+      "filletRadius": 7.6,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UC152x152x51",
+    "displayName": "UC 152x152x51",
+    "category": "UC",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 170.2,
+      "flangeWidth": 157.4,
+      "webThickness": 11,
+      "flangeThickness": 15.7,
       "filletRadius": 7.6,
       "toeRadius": 0,
       "flangeSlope": 0
@@ -1210,6 +1690,54 @@
       "flangeWidth": 209.1,
       "webThickness": 12.7,
       "flangeThickness": 20.5,
+      "filletRadius": 10.2,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UC203x203x100",
+    "displayName": "UC 203x203x100",
+    "category": "UC",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 228.6,
+      "flangeWidth": 210.3,
+      "webThickness": 14.5,
+      "flangeThickness": 23.7,
+      "filletRadius": 10.2,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UC203x203x113",
+    "displayName": "UC 203x203x113",
+    "category": "UC",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 235,
+      "flangeWidth": 212.1,
+      "webThickness": 16.3,
+      "flangeThickness": 26.9,
+      "filletRadius": 10.2,
+      "toeRadius": 0,
+      "flangeSlope": 0
+    }
+  },
+  {
+    "id": "UC203x203x127",
+    "displayName": "UC 203x203x127",
+    "category": "UC",
+    "defaultMaterial": "Steel",
+    "shape": {
+      "kind": "i",
+      "height": 241.4,
+      "flangeWidth": 213.9,
+      "webThickness": 18.1,
+      "flangeThickness": 30.1,
       "filletRadius": 10.2,
       "toeRadius": 0,
       "flangeSlope": 0
@@ -1479,7 +2007,7 @@
     "shape": {
       "kind": "i",
       "height": 381,
-      "flangeWidth": 384.8,
+      "flangeWidth": 394.8,
       "webThickness": 18.4,
       "flangeThickness": 30.2,
       "filletRadius": 15.2,

@@ -43,11 +43,13 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "NOTICE.md"
   ],
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
+    "catalog": "node scripts/build-catalog.ts",
     "typecheck": "tsc --noEmit",
     "demo": "vite demo",
     "demo:build": "vite build demo",

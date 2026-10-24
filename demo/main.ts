@@ -79,6 +79,7 @@ let state = readHash();
 
 const FAMILY_NAMES: Record<string, string> = {
   IPE: 'European I-beam, EN 10365',
+  IPN: 'European I-beam with tapered flanges, EN 10365',
   HEA: 'European wide flange beam, light series, EN 10365',
   HEB: 'European wide flange beam, EN 10365',
   HEM: 'European wide flange beam, heavy series, EN 10365',

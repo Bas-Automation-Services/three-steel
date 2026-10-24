@@ -8,8 +8,9 @@ profile, bend it into an arc or a spiral, cut the ends, and copy the code.
 
 ![Portal frames, an arch and a spiral stair stringer](docs/example.png)
 
-- **293 catalog profiles**: IPE, HEA, HEB, HEM, UPN, UPE, angles, SHS, RHS, CHS, flats and
-  rounds (EN 10365 / 10056 / 10219), UB, UC and PFC (BS 4-1).
+- **383 catalog profiles**: IPE, IPN, HEA, HEB, HEM, UPN, UPE, angles, SHS, RHS, CHS, flats and
+  rounds (EN 10365 / 10056 / 10219), UB, UC and PFC (BS 4-1). The I and channel dimensions come
+  from openly licensed tables, credited below.
 - **Exact section geometry**: outlines are lines and arcs with root and toe radii, not
   polygons. Tessellate them at whatever tolerance you need.
 - **Members on any centerline**: lines, arcs and helices, with an up vector and roll.
@@ -119,11 +120,25 @@ pnpm test          # vitest
 pnpm build         # dist/ (ESM + types)
 pnpm demo          # the playground, at http://localhost:5173
 pnpm example       # the scene in the screenshot
+pnpm catalog       # regenerate the I and channel tables from data/sources (Node 23.6+)
 ```
+
+## Data sources
+
+The I-beam and channel dimensions are copied from these tables, kept in `data/sources/` and turned
+into the catalog by `pnpm catalog`:
+
+- IPE, IPN, HEA, HEB, HEM, UPN, UPE: [Steel_Section_Database](https://github.com/ulmewix/Steel_Section_Database)
+  by Adam Koudelka, MIT.
+- UB, UC, PFC: [steel section tables](https://www.koyda.com/steel-section-tables/) by
+  [Koyda Ltd](https://www.koyda.com), CC BY 4.0.
+
+[NOTICE.md](NOTICE.md) has the licence texts and what was changed.
 
 ## License
 
-MIT © [Bas Automation Services](https://basautomationservices.com)
+MIT © [Bas Automation Services](https://basautomationservices.com). The section data is credited in
+[NOTICE.md](NOTICE.md).
 
 three-steel is built and maintained by [Bas Automation Services](https://basautomationservices.com),
 who make CAD automation and Autodesk Inventor plugins.
