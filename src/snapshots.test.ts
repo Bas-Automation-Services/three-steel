@@ -1,6 +1,7 @@
 // Regression snapshots: every catalog section outline and catalog entry is pinned to the JSON in
-// ../fixtures (1e-9 mm). A deliberate geometry change updates the fixture in the same commit.
-import { readdirSync, readFileSync } from 'node:fs';
+// ../fixtures (1e-9 mm). A deliberate geometry change updates the fixture in the same commit:
+// `UPDATE_SNAPSHOTS=1 pnpm test` rewrites the fixtures from the current code.
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
@@ -74,6 +75,32 @@ function expectCatalogMatches(profile: (typeof EU_STEEL_PROFILES)[number], entry
     expect(snapShape[key], `${profile.id}: shape.${key}`).toBe(shape[key]);
   }
 }
+
+function curveFixture(c: Curve2D): CurveFixture {
+  if (c.kind === 'line') return { type: 'line', x1: c.startPoint.x, y1: c.startPoint.y, x2: c.endPoint.x, y2: c.endPoint.y };
+  if (c.kind === 'arc') {
+    return { type: 'arc', cx: c.center.x, cy: c.center.y, radius: c.radius, startAngle: c.startAngle, endAngle: c.endAngle, ccw: c.isCounterClockwise };
+  }
+  return { type: 'circle', cx: c.center.x, cy: c.center.y, radius: c.radius };
+}
+
+function writeSnapshots(): void {
+  for (const profile of EU_STEEL_PROFILES) {
+    const section = buildCrossSection(profile.shape);
+    const box = section.boundingBox;
+    const fixture: SectionFixture = {
+      id: profile.id,
+      outer: section.outerCurves.map(curveFixture),
+      inner: section.innerContours.map((contour) => contour.map(curveFixture)),
+      boundingBox: { minX: box.min.x, minY: box.min.y, maxX: box.max.x, maxY: box.max.y },
+    };
+    writeFileSync(join(sectionsDir, `${profile.id}.json`), JSON.stringify(fixture, null, 2));
+  }
+  writeFileSync(join(fixturesDir, 'eu-steel.json'), JSON.stringify(EU_STEEL_PROFILES, null, 2));
+  writeFileSync(join(fixturesDir, 'uk-steel.json'), JSON.stringify(UK_STEEL_PROFILES, null, 2));
+}
+
+if (process.env.UPDATE_SNAPSHOTS === '1') writeSnapshots();
 
 const readCatalog = (name: string) =>
   JSON.parse(readFileSync(join(fixturesDir, name), 'utf8')) as CatalogEntry[];

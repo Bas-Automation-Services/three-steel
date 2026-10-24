@@ -12,10 +12,18 @@ export function buildUShapeOuter(shape: UShape): Curve2D[] {
 
   const slopeTan = shape.flangeSlope / 100.0;
   const slopeRadians = Math.atan(slopeTan);
+  const normF = Math.sqrt(1 + slopeTan * slopeTan);
   // T is measured at X=0 (profile center). Slope makes flange thinner toward tip.
-  // Inner surface: Y(X) = (-halfH + T) - slopeTan * X  (slopes away from outer edge toward tip)
-  const slopeOffsetAtWeb = -slopeTan * innerWebX; // positive (thicker at web)
-  const slopeOffsetAtTip = -slopeTan * flangeEdgeX; // negative (thinner at tip)
+  // Bottom inner surface: Y(X) = (-halfH + T) + slopeOffset(X); the top flange mirrors it.
+  const slopeOffset = (x: number): number => -slopeTan * x;
+  const slopeOffsetAtWeb = slopeOffset(innerWebX); // positive (thicker at web)
+  const slopeOffsetAtTip = slopeOffset(flangeEdgeX); // negative (thinner at tip)
+  // Fillet centres sit one radius from the sloped face along its normal, so the arcs are tangent to it.
+  // Toe fillet: tangent to the flange tip and the face, centre inside the flange.
+  const outerFilletCenterY = -halfHeight + shape.flangeThickness + slopeOffset(flangeEdgeX - shape.outerFilletRadius) - shape.outerFilletRadius * normF;
+  // Root fillet: tangent to the inner web face and the flange face, centre in the channel.
+  const innerFilletCenterYFor = (radius: number): number =>
+    -halfHeight + shape.flangeThickness + slopeOffset(innerWebX + radius) + radius * normF;
 
   // We need innerYCoordinate for the inner web line; computed during bottom flange construction
   let bottomInnerWebY: number;
@@ -26,7 +34,7 @@ export function buildUShapeOuter(shape: UShape): Curve2D[] {
 
   // ===== 2. Bottom flange: up right side → outer fillet (CCW) → slope left → inner fillet (CW) =====
   if (shape.outerFilletRadius > 0) {
-    const filletStartY = -halfHeight + shape.flangeThickness + slopeOffsetAtTip - shape.outerFilletRadius;
+    const filletStartY = outerFilletCenterY;
     curves.push(new Line2D(new Point2D(flangeEdgeX, -halfHeight), new Point2D(flangeEdgeX, filletStartY)));
 
     const outerFilletCenter = new Point2D(flangeEdgeX - shape.outerFilletRadius, filletStartY);
@@ -42,7 +50,7 @@ export function buildUShapeOuter(shape: UShape): Curve2D[] {
       const effectiveFilletRadius = Math.min(shape.innerFilletRadius, availableSpace * 0.95);
 
       const innerFilletCenterX = innerWebX + effectiveFilletRadius;
-      const innerFilletCenterY = innerFlangeSurfaceY + effectiveFilletRadius;
+      const innerFilletCenterY = innerFilletCenterYFor(effectiveFilletRadius);
       const innerFilletStartAngle = (Math.PI * 3) / 2 - slopeRadians;
 
       const innerFilletStartX = innerFilletCenterX + effectiveFilletRadius * Math.cos(innerFilletStartAngle);
@@ -66,7 +74,7 @@ export function buildUShapeOuter(shape: UShape): Curve2D[] {
       const effectiveFilletRadius = Math.min(shape.innerFilletRadius, availableSpace * 0.95);
 
       const innerFilletCenterX = innerWebX + effectiveFilletRadius;
-      const innerFilletCenterY = innerFlangeSurfaceY + effectiveFilletRadius;
+      const innerFilletCenterY = innerFilletCenterYFor(effectiveFilletRadius);
       const innerFilletStartAngle = (Math.PI * 3) / 2 - slopeRadians;
 
       const innerFilletStartX = innerFilletCenterX + effectiveFilletRadius * Math.cos(innerFilletStartAngle);
@@ -90,7 +98,7 @@ export function buildUShapeOuter(shape: UShape): Curve2D[] {
   // ===== 4. Top flange: inner fillet (CW) → slope right → outer fillet (CCW) → down right side =====
   // Mirror of bottom: all Y coordinates negated, traversal order reversed
   if (shape.outerFilletRadius > 0) {
-    const filletStartY = halfHeight - shape.flangeThickness - slopeOffsetAtTip + shape.outerFilletRadius;
+    const filletStartY = -outerFilletCenterY;
 
     if (shape.innerFilletRadius > 0) {
       const innerFlangeSurfaceY = halfHeight - shape.flangeThickness - slopeOffsetAtWeb;
@@ -98,7 +106,7 @@ export function buildUShapeOuter(shape: UShape): Curve2D[] {
       const effectiveFilletRadius = Math.min(shape.innerFilletRadius, availableSpace * 0.95);
 
       const innerFilletCenterX = innerWebX + effectiveFilletRadius;
-      const innerFilletCenterY = innerFlangeSurfaceY - effectiveFilletRadius;
+      const innerFilletCenterY = -innerFilletCenterYFor(effectiveFilletRadius);
       const innerFilletSlopeAngle = Math.PI / 2 + slopeRadians;
 
       const innerFilletSlopeX = innerFilletCenterX + effectiveFilletRadius * Math.cos(innerFilletSlopeAngle);
@@ -131,7 +139,7 @@ export function buildUShapeOuter(shape: UShape): Curve2D[] {
       const effectiveFilletRadius = Math.min(shape.innerFilletRadius, availableSpace * 0.95);
 
       const innerFilletCenterX = innerWebX + effectiveFilletRadius;
-      const innerFilletCenterY = innerFlangeSurfaceY - effectiveFilletRadius;
+      const innerFilletCenterY = -innerFilletCenterYFor(effectiveFilletRadius);
       const innerFilletSlopeAngle = Math.PI / 2 + slopeRadians;
 
       const innerFilletSlopeX = innerFilletCenterX + effectiveFilletRadius * Math.cos(innerFilletSlopeAngle);
