@@ -38,4 +38,11 @@ describe('UShape sloped flange', () => {
   it('measures tf at the middle of b by default', () => {
     expect(thicknessFromTip(upn, 50)).toBeCloseTo(17.5, 9);
   });
+
+  it('measures tf at flangeThicknessAt from the flange tip', () => {
+    // UPN 320: tf at (b - tw) / 2 = 43 from the tip.
+    const shape = { ...upn, flangeThicknessAt: 43 };
+    expect(thicknessFromTip(shape, 43)).toBeCloseTo(17.5, 9);
+    expect(thicknessFromTip(shape, 50)).toBeCloseTo(17.5 + 7 * 0.05, 9);
+  });
 });

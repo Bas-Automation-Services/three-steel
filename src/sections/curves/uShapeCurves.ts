@@ -13,9 +13,10 @@ export function buildUShapeOuter(shape: UShape): Curve2D[] {
   const slopeTan = shape.flangeSlope / 100.0;
   const slopeRadians = Math.atan(slopeTan);
   const normF = Math.sqrt(1 + slopeTan * slopeTan);
-  // T is measured at X=0 (profile center). Slope makes flange thinner toward tip.
+  // T is measured flangeThicknessAt from the flange tip (default b/2). Slope makes flange thinner toward tip.
   // Bottom inner surface: Y(X) = (-halfH + T) + slopeOffset(X); the top flange mirrors it.
-  const slopeOffset = (x: number): number => -slopeTan * x;
+  const thicknessX = flangeEdgeX - (shape.flangeThicknessAt ?? halfWidth);
+  const slopeOffset = (x: number): number => -slopeTan * (x - thicknessX);
   const slopeOffsetAtWeb = slopeOffset(innerWebX); // positive (thicker at web)
   const slopeOffsetAtTip = slopeOffset(flangeEdgeX); // negative (thinner at tip)
   // Fillet centres sit one radius from the sloped face along its normal, so the arcs are tangent to it.

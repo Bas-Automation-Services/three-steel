@@ -25,6 +25,11 @@ export interface UShape {
   innerFilletRadius: number;
   outerFilletRadius: number;
   flangeSlope: number;
+  /**
+   * Where flangeThickness is measured on a sloped flange: the distance from the flange tip.
+   * Omitted means b/2 (UPN up to 300); UPN above 300 measure at (b - tw) / 2.
+   */
+  flangeThicknessAt?: number;
 }
 
 /**
