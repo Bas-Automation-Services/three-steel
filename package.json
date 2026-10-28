@@ -1,6 +1,6 @@
 {
   "name": "three-steel",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Structural steel sections and beams for three.js: EN/BS profile catalogs, exact section outlines, straight, curved and spiral members.",
   "license": "MIT",
   "author": {
